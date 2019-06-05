@@ -1,75 +1,5 @@
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url(https://fonts.gstatic.com/s/montserrat/v13/JTURjIg1_i6t8kCHKm45_bZF3g3D-w.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Muli';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Muli Regular'), local('Muli-Regular'), url(https://fonts.gstatic.com/s/muli/v13/7Auwp_0qiz-afTLGKA.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Muli';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local('Muli SemiBold'), local('Muli-SemiBold'), url(https://fonts.gstatic.com/s/muli/v13/7Au_p_0qiz-ade3iOCX2yg.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Muli';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local('Muli Bold'), local('Muli-Bold'), url(https://fonts.gstatic.com/s/muli/v13/7Au_p_0qiz-adYnjOCX2yg.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Muli';
-  font-style: normal;
-  font-weight: 800;
-  font-display: swap;
-  src: local('Muli ExtraBold'), local('Muli-ExtraBold'), url(https://fonts.gstatic.com/s/muli/v13/7Au_p_0qiz-adZXgOCX2yg.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Muli';
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: local('Muli Black'), local('Muli-Black'), url(https://fonts.gstatic.com/s/muli/v13/7Au_p_0qiz-adbHhOCX2yg.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu5mxP.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmEU9fABc9.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmWUlfABc9.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v19/KFOlCnqEu92Fr1MmYUtfABc9.ttf) format('truetype');
-}
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Montserrat, 'sans-serif';
   margin: 0;
   padding: 0;
 }
@@ -106,7 +36,6 @@ body {
   margin-right: 10px;
 }
 .header .container .profile .name span {
-  font-family: Muli, 'sans-serif';
   color: #404040;
 }
 .header .container .profile img {
@@ -159,7 +88,6 @@ body {
   margin-bottom: 20px;
 }
 .breadCrumbs span {
-  font-family: Muli, 'sans-serif';
   font-size: 14px;
   color: #C4C4C4;
   line-height: 18px;
@@ -196,7 +124,6 @@ body {
   color: rgba(234, 76, 76, 0.81);
 }
 .article {
-  font-family: Muli, 'sans-serif';
   font-size: 18px;
   line-height: 34px;
   color: #2E2E2E;
@@ -206,7 +133,6 @@ body {
   font-weight: 600;
   line-height: 55px;
   color: #3E3E3E;
-  font-family: Montserrat, 'sans-serif';
   margin-bottom: 20px;
 }
 .documents {
@@ -225,14 +151,12 @@ body {
 }
 .documents .name {
   font-size: 14px;
-  font-family: Montserrat, 'sans-serif';
   font-weight: 600;
   line-height: 14px;
   margin-bottom: 5px;
 }
 .documents .info {
   display: flex;
-  font-family: Muli, 'sans-serif';
   font-size: 14px;
   line-height: 14px;
 }
@@ -245,7 +169,6 @@ body {
 }
 .have-read {
   color: #EA4C4C;
-  font-family: Montserrat, 'sans-serif';
   font-size: 16px;
   line-height: 20px;
   font-weight: 600;
